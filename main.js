@@ -37,7 +37,7 @@ const registry = new vsctm.Registry({
 registry.loadGrammar('source.js').then(grammar => {
     const text = [
         `function sayHello(name) {`,
-        `\treturn "Hello, qwe" + name; // "rjtythy" some comments awd`,
+        `\treturn "Hello, qwe" + name + 6; // "rjtythy" some comments awd`,
         `/* aaa`,
         `* bbb`,
         ` ccc */`,
